@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#uploadForm {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#uploadedWords {
+    margin-top: 50px;
+}
+
+#wordList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#wordList li {
+    margin-bottom: 5px;
+}

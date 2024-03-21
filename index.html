@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Kata</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Upload Kata</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <textarea id="textInput" rows="4" cols="50" placeholder="Masukkan kata..."></textarea><br>
+        <input type="file" id="fileInput"><br>
+        <button type="button" onclick="upload()">Upload</button>
+    </form>
+
+    <div id="uploadedWords">
+        <h2>Kata yang telah diupload:</h2>
+        <ul id="wordList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
